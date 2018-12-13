@@ -1,0 +1,169 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto Mono', monospace; 
+}
+
+.about{
+	padding-top: 400px;
+	height: 40vh;
+
+}
+
+.about-landing{
+	color: #424242;
+	font-size: 5em;
+	font-family: 'Roboto Mono' monospace;
+	text-align: center;
+	letter-spacing: 5px;
+	padding-top: 60px;
+}
+
+/*.title{ animation-duration: 4s;
+
+}
+.subtitle{ animation-delay: 1s;}
+*/
+.nav{
+
+	background-color: #141414;
+	color: #424242;
+}
+
+#the-origin, #origin-text{
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+.navbar{
+	
+	font-size: 1.3rem;
+}
+
+.brand{
+	font-family: 'Roboto Mono', monospace;
+	font-size: 5rem;
+	font-weight: 1000;
+}
+
+.bg-ponkan{
+  background-color: #ff3300;
+}
+
+.navbar-default .navbar-nav li, a{
+	color: #d5d5d5;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active{
+	color: #fff;
+}
+
+#home{
+	background: url('../images/mother1.jpeg') no-repeat center center fixed;
+	display: table;
+	color: white;
+	height: 70vh;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+.landing-text{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.landing-text .title{
+	font-size: 5rem;
+	font-weight: 500;
+}
+
+.padding{
+	padding: 80px 0;
+}
+
+
+#featured{
+	height: 80%;
+	width: 60%;
+	padding-bottom: 1em;
+}
+.card{
+	border: none !important;
+}
+
+.gallerie{
+	max-width: 18rem;
+}
+
+img{
+	max-width: 18rem;
+	height: auto; 
+}
+
+#fixed{
+	background: url('../images/family1.jpeg') no-repeat center center fixed;
+
+	display: table;
+	height: 70vh;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+footer{
+	bottom: 0;
+	position: relative;
+	background-color: #808080;
+	padding: 1rem;
+	color: white;
+	font-size: 1.1rem;
+}
+
+#footerpic{
+	max-height: 18rem;
+	width: auto;
+}
+
+/*.title{
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 1px;
+ 	animation: typing 4s steps(30, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 100%;
+    font-weight: normal;
+    border-right: 4px solid white;
+    box-sizing: border-box;
+}*/
+
+section{
+	min-height: 83vh;
+}
+
+.sec{
+	min-height: 68.2vh;
+}
+
+/*@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 58% 
+    }
+}
+
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: white; 
+    }
+}*/
